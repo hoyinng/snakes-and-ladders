@@ -1,0 +1,23 @@
+{- -------------------------------------------------
+--	Name:   Ho Yin Ng
+--	Course: CPS506, Winter 2017, Assignment #3
+--	Due:    2017.03.30 
+--	Credit: This is entirely my own work
+------------------------------------------------- -}
+-- Comment : test case can be tested as such
+-- $> ghci 
+-- Main> :load assign3.hs
+-- Main> runTestTT tests
+-- Cases: 9  Tried: 9  Errors: 0  Failures: 0
+-- Counts {cases = 9, tried = 9, errors = 0, failures = 0}
+------------------------------------------------
+-- :: Compile method :: --
+-- $> ghci assign3.hs
+-- ghic> readFrom "board 3 4\nplayers 2\nturns 5"
+-- ------- OR ----------- 
+-- $> ghc -o assign3 assign3.hs
+-- ./assign3      
+	board 3 4
+	players 2
+	turns 5
+	^C

@@ -1,0 +1,44 @@
+----------------------------------------------
+	Name:   Ho Yin Ng & Filip Bajlon
+	Course: CPS506, Winter 2017, Assignment #4
+	Due:    2017.04.11 18:30
+	Credit: This is entirely our own work. 
+---------------------------------------------- 
+
+> cargo run
+Running `target/debug/assign4`
+board 3 4
++---+---+---+
+| 12| 11| 10|
+|   |   |   |
++---+---+---+
+|  7|  8|  9|
+|   |   |   |
++---+---+---+
+|  6|  5|  4|
+|   |   |   |
++---+---+---+
+|  1|  2|  3|
+|   |   |   |
++---+---+---+
+
+> cargo run
+Running `target/debug/assign4`
+board 2 2
+players 1
++---+---+
+|  4|  3|
+|   |   |
++---+---+
+|  1|  2|
+|A  |   |
++---+---+
+
+> cargo test
+Running target/debug/assign4-2027d0116b0d76be
+
+running 1 test
+test tests::it_works ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured
+

@@ -1,0 +1,5 @@
+[package]
+
+name = "assign4"
+version = "0.9.1"
+authors = [ "Ho Yin Ng <hyng@moon.scs.ryerson.ca>", "Filip Bajlon <fbajlon@scs.ryerson.ca>" ]
